@@ -3,7 +3,7 @@ import random
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8559903050:AAG0GPePcYfvu76GLv6maFexkdPb9vLF5jE"
+TOKEN = ""
 
 DICE_RE = re.compile(r"(\d*)d(\d+)", re.IGNORECASE)
 
@@ -129,3 +129,4 @@ if __name__ == "__main__":
 
     print("Бот запущен! Пиши ему в Telegram.")
     app.run_polling()
+
